@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+
+    /* custom style */
+
+    *{
+        box-sizing: border-box;
+    }
+    .search:hover .search-p,.cart:hover .cart-p,.user:hover .user-p{
+        display: block;
+        
+    }
+   .all.show{
+        display: flex;
+    }
+
+     .all-btn.borderDash{
+        background: rgb(228, 226, 226);
+        border: 1px dashed black;
+    }
+
+    .left:hover .camera{
+        display: block !important;
+    }
+    .left:hover .add{
+        opacity: 1;
+    }
+
+    .sign-out.show{
+        display: block;
+    }
+    .congratulate:hover .icon-right, .for:hover .for-right{
+        transition: transform 0.1s ;
+        transform: translateX(4px);
+    }
+
+    .all{
+        height: 448px;
+    }
+    .footer-all{
+        width: 1172px;
+    }
+
+    .out-user.dashed{
+        border: 1px dashed black;
+    }
+
+    .bg1{
+        height:525px;
+        width:1450px;
+    }
+    .save{
+        width: 450px;
+    }
+    .play-paused.dashed,.left.dashed,.right.dashed{
+        border: 3px dotted black;
+    }
+
+    .left-icon:hover{
+        transition: transform 0.3s ;
+        transform: translateX(-3px);
+    }
+    .right-icon:hover{
+        transition: transform 0.1s ;
+        transform: translateX(4px);
+    }
+
+    .sec {
+        display: none;
+      }
+      
+      .sec.next {
+ display: inline;
+      }
+    
+
+}
