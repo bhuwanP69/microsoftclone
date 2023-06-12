@@ -138,6 +138,22 @@ const circle4 = document.getElementById('circle4');
   
   intervalId = setInterval(nextSlide, 5000);
 
+// logos 
+const links =document.querySelectorAll('.link');
+
+links.forEach((link) =>{
+ link.addEventListener('click',() =>{
+  link.classList.toggle('dot')
+
+ })
+})
+
+
+
+
+
+
+
 
 
   // last 
@@ -171,6 +187,10 @@ document.addEventListener('click', (event) => {
   }
   if(!playPaused.contains(targetElement)){
     playPaused.classList.remove('dashed')
+   
+  }
+  if(!links.contains(targetElement)){
+    links.classList.remove('dot')
    
   }
 });

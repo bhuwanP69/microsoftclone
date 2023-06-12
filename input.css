@@ -76,6 +76,10 @@
       .sec.next {
  display: inline;
       }
-    
-
+      .logos{
+        color: #0067b8;
+      }
+      .link.dot{
+        border: 4px dotted rgb(29, 63, 214);
+      }
 }
